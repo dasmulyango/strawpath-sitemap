@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://github.com/dasmulyango/strawpath-sitemap/blob/main/sitemap.xml
+
+# Common bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block specific paths if needed (uncomment to use)
+# Disallow: /private/
+# Disallow: /temp/
+
+# Crawl-delay for aggressive bots (uncomment if needed)
+# User-agent: *
+# Crawl-delay: 10
